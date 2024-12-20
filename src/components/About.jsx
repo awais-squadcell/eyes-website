@@ -1,3 +1,4 @@
+import { FaArrowAltCircleRight } from "react-icons/fa";
 import stare from '/src/assets/stare.png';
 
 function About() {
@@ -8,7 +9,7 @@ function About() {
       <div className="w-1/2 ">
       <h1 className="text-5xl">Our approach:</h1>
       <button className="flex gap-10 uppercase items-center px-10 py-6 bg-zinc-900 rounded-full mt-10 text-white">Read More 
-        <div className="w-2 h-2 bg-zinc-100 rounded-full"></div>
+        <FaArrowAltCircleRight />
       </button>
       </div>
       <div className="w-1/2 h-[70vh] bg-[#7e952c] rounded-3xl overflow-hidden">
