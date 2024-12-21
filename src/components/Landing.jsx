@@ -24,7 +24,7 @@ function Landing() {
               <div className="w-fit flex items-end overflow-hidden">
                 {index === 1 && (
                   isVisible && (
-                    <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{duration:2,ease:'linear'}} className="mr-5 w-[8vw] -top-[1.2vw] rounded-md h-[5vw] bg-blue-900 relative overflow-hidden">
+                    <motion.div initial={{width:0}} animate={{width:'8vw'}} transition={{duration:1,ease:[0.76,0,0.24,1]}} className="mr-5 w-[8vw] -top-[1.2vw] rounded-full h-[5vw] bg-blue-900 relative overflow-hidden">
                     <img className="w-full h-full object-cover" src={eye} alt="eye-opening" />
                   </motion.div>
                   ))}
