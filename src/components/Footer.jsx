@@ -16,8 +16,8 @@ function Footer() {
       </div>
       <div className="w-1/2">
       <h1 className="text-[6vw] uppercase leading-none -mb-4 font-bold ">Presentations</h1>
-        <div className="w-full h-full font-['Neue_Montreal'] py-20 flex flex-col gap-10 text-base">
-            <div>
+        <div className="w-full h-full font-['Neue_Montreal'] py-16 flex flex-col gap-10 text-base">
+            <div className=" w-1/5">
                 <h1 className="pb-2">Social</h1>
                 <a className="block hover:underline" href="#">Instagram</a>
                 <a className="block hover:underline" href="#">Facebook</a>
@@ -39,9 +39,13 @@ function Footer() {
                     <a className="block hover:underline" href="#">Contact Us</a>
                 </div>
             </div>
-            <div>
+            <div className=" w-1/5">
                 <h1 className="pb-2">Email</h1>
                     <a className="block hover:underline" href="#">hello@eyes.design</a>
+            </div>
+            <div className="flex justify-between text-zinc-400">
+              <a className="hover:underline" href="#">&copy; ochi design 2024.</a>
+              <a className="hover:underline" href="#">Website by Awais Islam</a>
             </div>
         </div>
       </div>

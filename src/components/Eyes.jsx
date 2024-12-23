@@ -62,7 +62,7 @@ function Eyes() {
 
   return (
     <div className="eyes w-full h-screen overflow-hidden">
-      <div className="relative w-full h-full bg-cover bg-center bg-[url('https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg')]">
+      <div data-scroll data-scroll-section data-scroll-speed='-.7' className="relative w-full h-full bg-cover bg-center bg-[url('https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg')]">
         <div className="flex gap-12 absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]">
           {/* Eye 1 */}
           <div
@@ -83,6 +83,7 @@ function Eyes() {
               >
                 <div className="w-8 h-8 rounded-full bg-white"></div>
               </div>
+              <span className="mt-14 text-white text-xl flex justify-center font-semibold">Play</span>
             </div>
           </div>
 
@@ -105,6 +106,7 @@ function Eyes() {
               >
                 <div className="w-8 h-8 rounded-full bg-white"></div>
               </div>
+              <span className="mt-14 text-white text-xl flex justify-center font-semibold">Play</span>
             </div>
           </div>
         </div>

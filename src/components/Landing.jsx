@@ -8,15 +8,15 @@ function Landing() {
   const [isVisible, setIsVisble] = useState(false);
   useEffect(()=>{
     const timer  = setTimeout(()=>{
-    setIsVisble(true);}, 2000);
+    setIsVisble(true);}, 500);
     return()=> clearTimeout(timer);
   },[]);
 
   return (
 
-    <div className="w-[100%] h-[100%] bg-zinc-900 pt-1">
+    <div data-scroll data-scroll-section data-scroll-speed='-.3' className="w-[100%] h-[100%] bg-zinc-900 pt-1">
 
-      <div className="text mt-40 px-14">
+      <div className="text mt-36 px-14">
         {['we create',
         'eye-catching',
         'presentations'].map((item,index)=>{
@@ -38,7 +38,7 @@ function Landing() {
         'From the first pitch to IPO'].map((item,index)=>(
             <p className="text-md font-light tracking-tight leading-none" key={index}>{item}</p>
         ))}
-        <div className="start flex place-items-center gap-5">
+        <div className="start flex place-items-center gap-2">
             <div className="px-5 py-2 border-[1px] border-zinc-500 font-light rounded-full text-md uppercase">Start the Project</div>
             <div className="w-10 h-10 rounded-full flex items-center justify-center border-[2px] border-zinc-500">
                 <span className="rotate-45">
